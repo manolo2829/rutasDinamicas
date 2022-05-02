@@ -45,7 +45,7 @@ Objetos.map(item => {
         <h5 class="card-title">${item.title}</h5>
         <h6 class="card-subtitle mb-2 text-muted">${item.subtitle}</h6>
         <p class="card-text">${item.description}</p>
-        <a href="?title=${item.title}" class="card-link">Ver mas</a>
+        <a href="./pages/objeto.html?title=${item.title}" class="card-link">Ver mas</a>
     </div>
     `;
     const Card = document.createElement('div')
@@ -54,3 +54,4 @@ Objetos.map(item => {
     Card.innerHTML = Content;
     Container.appendChild(Card)
 })
+
