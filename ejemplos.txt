@@ -1,0 +1,32 @@
+// EJEMPLOS DE FUNCIONAMIENTO
+
+// const valores = window.location.search;
+
+// //Mostramos los valores en consola:
+// // console.log(valores);
+
+// //Resultado:
+// //producto=camiseta&color=azul&talla=s
+
+// //Creamos la instancia
+// const urlParams = new URLSearchParams(valores);
+
+// //Accedemos a los valores
+// const producto = urlParams.get('producto');
+
+// // console.log(producto)
+
+
+// //Verificar si existe el parámetro
+// // console.log(urlParams.has('producto'));
+
+// //Puedes recorrer los valores, claves y pares completos.
+// const
+//   keys = urlParams.keys(),
+//   values = urlParams.values(),
+//   entries = urlParams.entries();
+
+// // for (const value of values) console.log(value);
+// //camiseta, azul, s
+
+
